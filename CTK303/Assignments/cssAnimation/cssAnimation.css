@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+
+@supports (-webkit-text-stroke: 1px black) {
+
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: orange;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: grey;
+}
+nav a::before {
+  content: attr(date-text);
+  position: absolute;
+  top:0;
+  left:0;
+  width: 0;
+  height: 100%;
+  color: #8f18b2;
+  -webkit-text-stroke: 0vw black;
+  overflow: hidden;
+  animation: animate 6s linear infinite;
+
+}
+
+
+
+nav a {
+  transition: background-color 1.0s, width 2.0s, color 2.0s;
+  margin: 0;
+  padding: 0;
+  box-sizing; border-box;
+  font-family: 'Supermercado One', cursive;
+  position: relative;
+  font-size: 7vw;
+  -webkit-text-stroke: 0.3vw black;
+  -webkit-text-fill-color: orange;
+
+}
+
+nav a:hover {
+  background-color: #8f18b2;
+  width: 200px;
+  color: black;
+}
