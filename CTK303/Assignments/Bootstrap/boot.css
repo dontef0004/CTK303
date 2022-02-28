@@ -1,0 +1,41 @@
+body {
+  color: coral;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-inner .item img {
+    height: 520px;
+    width: 90vw;
+    border-radius: 25px;
+}
+
+.carousel-indicators li {
+    border-color: black;
+}
+
+.carousel-indicators .active{
+    background-color: black !important;
+}
+
+.carousel-control:hover, .carousel-control {
+    background: transparent !important;
+    height: 520px;
+}
+
+.carousel-control span {
+    color: black;
+}
+
+@media only screen and (max-width: 767px) {
+    .carousel-inner .item img {
+        height: 300px;
+    }
+    .carousel-control:hover, .carousel-control {
+        height: 300px;
+    }
+}
