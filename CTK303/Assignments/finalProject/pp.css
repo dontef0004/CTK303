@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Quicksand:300,400');
+
+body {
+
+  background: #999999;
+
+	text-align: center;
+
+}
+
+.header {
+	margin: 20px;
+	font-family: Pacifico;
+	color: black;
+	font-size: 4.5em;
+
+}
+
+.links {
+	font-family: Quicksand;
+	margin: auto;
+	width: 50%;
+}
+
+.links a {
+	color: inherit;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.link {
+  background: rgb(0,0,0);
+  background: -moz-radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,111,0,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,111,0,1) 100%);
+  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,111,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ff6f00",GradientType=1);
+	height: 50px;
+	margin: 10px;
+	line-height: 50px;
+	width: 33%;
+	display: inline-block;
+	color: #f4fcfc;
+  box-shadow: 5px 10px #888888;
+}
+
+.link:hover {
+	background: #f4fcfc;
+	color: #56d3d4;
+	border: 2px solid #56d3d4;
+}
